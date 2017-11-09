@@ -17,7 +17,7 @@ class SendTweet
 
    def perform
      log_in_to_twitter
-    @client.update("@string")
+    @client.update(@string)
    end
 
 end
